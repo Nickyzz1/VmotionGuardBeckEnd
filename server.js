@@ -14,4 +14,4 @@ app.set('view engine', 'ejs');
 
 app.use(routes);
 
-app.listen(3000, () => console.log('Acesse: http://localhost:3000/'));
+app.listen(10000, "0.0.0.0", () => console.log('Acesse: http://localhost:10000/'));
